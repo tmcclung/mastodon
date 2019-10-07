@@ -3,6 +3,20 @@ Changelog
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.1] - 2019-10-07
+### Fixed
+
+- Fix old migration trying to use new column due to default status scope ([Gargron](https://github.com/tootsuite/mastodon/pull/12095))
+- Fix column back button missing for not found accounts ([trwnh](https://github.com/tootsuite/mastodon/pull/12094))
+- Fix issues with tootctl's parallelization and progress reporting ([Gargron](https://github.com/tootsuite/mastodon/pull/12093), [Gargron](https://github.com/tootsuite/mastodon/pull/12097))
+- Fix existing user records with now-renamed `pt` locale ([Gargron](https://github.com/tootsuite/mastodon/pull/12092))
+- Fix hashtag timeline REST API accepting too many hashtags ([Gargron](https://github.com/tootsuite/mastodon/pull/12091))
+- Fix `GET /api/v1/instance` REST APIs being unavailable in secure mode ([Gargron](https://github.com/tootsuite/mastodon/pull/12089))
+- Fix performance of home feed regeneration and merging ([Gargron](https://github.com/tootsuite/mastodon/pull/12084))
+- Fix ffmpeg performance issues due to stdout buffer overflow ([hugogameiro](https://github.com/tootsuite/mastodon/pull/12088))
+- Fix S3 adapter retrying failing uploads with exponential backoff ([Gargron](https://github.com/tootsuite/mastodon/pull/12085))
+- Fix `tootctl accounts cull` advertising unused option flag ([Kjwon15](https://github.com/tootsuite/mastodon/pull/12074))
+
 ## [3.0.0] - 2019-10-03
 ### Added
 
