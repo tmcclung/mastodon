@@ -1,6 +1,11 @@
 version: '3'
 services:
 
+  nginx:
+    image: 'bitnami/nginx:1.16'
+    ports:
+      - '80:8080'
+
   db:
     restart: always
     image: postgres:9.6-alpine
