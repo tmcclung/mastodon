@@ -1,5 +1,3 @@
-TEST!
-
 ![Mastodon](https://i.imgur.com/NhZc40l.png)
 ========
 
