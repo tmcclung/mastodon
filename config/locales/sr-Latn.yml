@@ -6,7 +6,6 @@ sr-Latn:
     about_this: O instanci
     contact: Kontakt
     contact_missing: Nije postavljeno
-    generic_description: "%{domain} je server na mreži"
     hosted_on: Mastodont hostovan na %{domain}
     learn_more: Saznajte više
     source_code: Izvorni kod
@@ -48,9 +47,7 @@ sr-Latn:
       email_status: Status e-pošte
       enable: Uključi
       enabled: Uključeno
-      feed_url: Adresa dovoda
       followers: Pratioci
-      followers_url: Adresa pratioca
       follows: Praćeni
       inbox_url: Adresa sandučeta
       location:
@@ -70,9 +67,7 @@ sr-Latn:
       most_recent_activity: Najskorija aktivnost
       most_recent_ip: Najskorija IP adresa
       not_subscribed: Nije pretplaćen
-      outbox_url: Odlazno sanduče
       perform_full_suspension: Izvrši kompletno isključenje
-      profile_url: Adresa profila
       promote: Unapredi
       protocol: Protokol
       public: Javno
@@ -88,7 +83,6 @@ sr-Latn:
       roles:
         staff: Osoblje
         user: Korisnik
-      salmon_url: Salmon adresa
       search: Pretraga
       shared_inbox_url: Adresa deljenog sandučeta
       show:
@@ -329,7 +323,6 @@ sr-Latn:
     noscript_html: Da biste koristili Mastodont veb aplikaciju, omogućite JavaScript. U suprotnom, probajte neku od <a href="%{apps_path}">originalnih aplikacija</a> za Mastodont za Vašu platformu.
   exports:
     blocks: Blokirali ste
-    follows: Pratite
     mutes: Ućutkali ste
     storage: Multimedijalno skladište
   generic:
@@ -479,21 +472,14 @@ sr-Latn:
   themes:
     default: Mastodont
   two_factor_authentication:
-    code_hint: Unesite kod sa Vaše aplikacije za proveru identiteta da potvrdite
-    description_html: Ako uključite <strong>dvofaktorsku identifikaciju</strong>, moraćete da imate telefon sa sobom da biste mogli da se prijavite. Telefon će onda generisati tokene za Vašu prijavu.
     disable: Isključi
-    enable: Uključi
     enabled: Dvofaktorska identifikacija je uključena
     enabled_success: Dvofaktorska identifikacija je uspešno uključena
     generate_recovery_codes: Generiši kodove za oporavak
-    instructions_html: "<strong>Skenirajte ovaj QR kod u Google Authenticator ili nekoj sličnoj TOTP aplikaciji na Vašem telefonu</strong>. Od sada, ta aplikacija će Vam generisati tokene koje morate uneti da biste se prijavili."
     lost_recovery_codes: Kodovi za oporavak Vam omogućavaju da povratite pristup nalogu ako izgubite telefon. Ako izgubite kodove za oporavak, možete ih regenerisati ovde. Od tog trenutka, stari kodovi za oporavak više ne važe.
-    manual_instructions: 'Ukoliko ne možete da skenirate QR kod i morate ga unesete ručno, evo je ogoljena šifra:'
     recovery_codes: Napravite rezervu kodova za oporavak
     recovery_codes_regenerated: Kodovi za oporavak uspešno regenerisani
     recovery_instructions_html: Ako ikada izgubite pristup telefonu, možete iskoristiti kodove za oporavak date ispod da povratite pristup nalogu. <strong>Držite kodove za oporavak na sigurnom</strong>. Na primer, odštampajte ih i čuvajte ih sa ostalim važnim dokumentima.
-    setup: Nameštanje
-    wrong_code: Uneseni kod nije ispravan! Da li su vremena na serveru i na uređaju ispravna?
   users:
     invalid_email: Adresa e-pošte nije ispravna
     invalid_otp_token: Neispravni dvofaktorski kod

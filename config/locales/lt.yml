@@ -9,7 +9,6 @@ lt:
     contact: Kontaktai
     contact_missing: Nenustatyta
     documentation: Dokumentacija
-    generic_description: "%{domain} yra vienas serveris tinkle"
     hosted_on: Mastodon palaikomas naudojantis %{domain} talpinimu
     learn_more: Daugiau
     privacy_policy: Privatumo Politika
@@ -76,9 +75,7 @@ lt:
       email_status: El pašto statusas
       enable: Įjungti
       enabled: Įjungta
-      feed_url: Srauto URL
       followers: Sekėjai
-      followers_url: Sekėjų URL
       follows: Seka
       header: Antraštė
       inbox_url: Gautųjų URL
@@ -103,9 +100,7 @@ lt:
       most_recent_ip: Paskutinis IP
       no_limits_imposed: Be limitu
       not_subscribed: Ne prenumeruota
-      outbox_url: Išsiustųjų URL
       perform_full_suspension: Užrakinti
-      profile_url: Profilio URL
       promote: Paaukštinti
       protocol: Protokolas
       public: Viešas
@@ -126,7 +121,6 @@ lt:
         moderator: Moderatorius
         staff: Personalas
         user: Vartotojas
-      salmon_url: Lašišos URL
       search: Ieškoti
       shared_inbox_url: Bendroji gautųjų URL
       show:
@@ -267,9 +261,6 @@ lt:
         create: Pridėto domeną
         title: Naujas el pašto juodojo sąrašo įtraukimas
       title: El pašto juodasis sąrašas
-    followers:
-      back_to_account: Atgal Į Paskyrą
-      title: "%{acct} Sekėjai"
     instances:
       by_domain: Domenas
       delivery_available: Pristatymas galimas
@@ -310,9 +301,6 @@ lt:
       created_msg: Skundo žinutė sekmingai sukurta!
       destroyed_msg: Skundo žinutė sekmingai ištrinta!
     reports:
-      account:
-        note: raštelis
-        report: skundas
       action_taken_by: Veiksmo ėmėsi
       are_you_sure: Ar tu įsitikinęs?
       assign_to_self: Paskirti man
@@ -422,7 +410,6 @@ lt:
     warning_presets:
       add_new: Pridėti naują
       delete: Ištrinti
-      edit: Keisti
       edit_preset: Keisti įspėjimo nustatymus
       title: Valdyti įspėjimo nustatymus
   admin_mailer:
@@ -519,7 +506,6 @@ lt:
       size: Dydis
     blocks: Jūs blokuojate
     domain_blocks: Domeno blokai
-    follows: Jūs sekate
     lists: Sąrašai
     mutes: Jūs tildote
     storage: Medijos sandėlis
@@ -790,21 +776,14 @@ lt:
     default: Mastodon (Tamsus)
     mastodon-light: Mastodon (Šviesus)
   two_factor_authentication:
-    code_hint: Įveskite autentikacijos aplikacijos sugeneruotą kodą kad galėtumete tęsti
-    description_html: Jeigu įjungiate <strong>dviejų veiksnių autentikaciją</strong>, prisijungiant jums reikės turėti su savimi savo telefoną, kuris jums generuos prisijungimo žetonus.
     disable: Išjungti
-    enable: Įjungti
     enabled: Dviejų veiksnių autentikacija įjungta
     enabled_success: Dviejų veiksnių autentikacija sėkmingai įjungta
     generate_recovery_codes: Sugeneruoti atkūrimo kodus
-    instructions_html: "<strong>Nuskenuokite šį QR kodą į Google Autentikatorių arba panašią TOTP aplikaciją jūsų telefone</strong>. Nuo šiol, ši aplikacija jums generuos žetonus, kurių reikės norint prisijungti."
     lost_recovery_codes: Atkūrimo kodai jums leidžia atgauti prisijungimą prie Jūsų paskyros, jeigu prarandate telefoną. Jeigu praradote atkūrimo kodus, juos galite sugeneruoti čia. Jūsų senieji atkūrimo kodai nebeveiks.
-    manual_instructions: 'Jeigu jūs negalite nuskenuoti QR kodo ir turite jį įvesti savarankiškai, štai čia yra tekstas šiam kodui:'
     recovery_codes: Atsarginio atkūrimo kodai
     recovery_codes_regenerated: Atkūrimo kodai sėkmingai sugeneruoti
     recovery_instructions_html: Jeigu prarandate prieiga prie telefono, jūs galite naudoti atkūrimo kodus esančius žemiau, kad atgautumėte priega prie savo paskyros.<strong>Laikykite atkūrimo kodus saugiai</strong> Pavyzdžiui, galite norėti juos išspausdinti, ir laikyti kartu su kitais svarbiais dokumentais.
-    setup: Nustatyti
-    wrong_code: Koda netinkamas! Ar serverio laikas ir prietaiso laikas vienodi?
   user_mailer:
     backup_ready:
       explanation: Jūs prašėte pilnos Mastodon paskyros atsarginės kopijos. Ji paruošta parsisiuntimui!

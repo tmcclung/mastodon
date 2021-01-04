@@ -25,7 +25,7 @@ class Poll < ApplicationRecord
   belongs_to :account
   belongs_to :status
 
-  has_many :votes, class_name: 'PollVote', inverse_of: :poll, dependent: :destroy
+  has_many :votes, class_name: 'PollVote', inverse_of: :poll, dependent: :delete_all
 
   has_many :notifications, as: :activity, dependent: :destroy
 
@@ -36,7 +36,7 @@ class Poll < ApplicationRecord
   scope :attached, -> { where.not(status_id: nil) }
   scope :unattached, -> { where(status_id: nil) }
 
-  before_validation :prepare_options
+  before_validation :prepare_options, if: :local?
   before_validation :prepare_votes_count
 
   after_initialize :prepare_cached_tallies

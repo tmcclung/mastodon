@@ -18,7 +18,6 @@ sl:
     discover_users: Odkrijte uporabnike
     documentation: Dokumentacija
     federation_hint_html: Z računom na %{instance} boste lahko spremljali ljudi na kateremkoli Mastodon strežniku.
-    generic_description: "%{domain} je en strežnik v omrežju"
     get_apps: Poskusite mobilno aplikacijo
     hosted_on: Mastodon gostuje na %{domain}
     instance_actor_flash: |
@@ -59,6 +58,7 @@ sl:
     media: Mediji
     moved_html: "%{name} se je prestavil na %{new_profile_link}:"
     network_hidden: Ta informacija ni na voljo
+    never_active: Nikoli
     nothing_here: Tukaj ni ničesar!
     people_followed_by: Ljudje, ki jim sledi %{name}
     people_who_follow: Ljudje, ki sledijo %{name}
@@ -115,9 +115,7 @@ sl:
       email_status: Stanje e-pošte
       enable: Omogoči
       enabled: Omogočeno
-      feed_url: URL vira
       followers: Sledilci
-      followers_url: URL sledilcev
       follows: Sledi
       header: Glava
       inbox_url: URL mape "Prejeto"
@@ -145,10 +143,8 @@ sl:
       no_account_selected: Noben račun ni bil spremenjen, ker ni bil izbran noben
       no_limits_imposed: Brez omejitev
       not_subscribed: Ni naročen
-      outbox_url: URL za pošiljanje
       pending: Čakanje na pregled
       perform_full_suspension: Suspendiraj
-      profile_url: URL profila
       promote: Promoviraj
       protocol: Protokol
       public: Javen
@@ -171,7 +167,6 @@ sl:
         moderator: Moderator
         staff: Osebje
         user: Uporabnik
-      salmon_url: URL lososa
       search: Iskanje
       shared_inbox_url: URL mape "Prejeto v skupni rabi"
       show:
@@ -326,9 +321,6 @@ sl:
         create: Dodaj domeno
         title: Nov vnos e-pošte na črni seznam
       title: Črni seznam e-pošt
-    followers:
-      back_to_account: Nazaj na račun
-      title: Sledilci od %{acct}
     instances:
       by_domain: Domena
       delivery_available: Na voljo je dostava
@@ -376,9 +368,6 @@ sl:
       created_msg: Opomba o prijavi je uspešno ustvarjena!
       destroyed_msg: Opomba o prijavi je uspešno izbrisana!
     reports:
-      account:
-        note: opomba
-        report: prijava
       action_taken_by: Dejanje, ki ga je sprejel
       are_you_sure: Ali ste prepričani?
       assign_to_self: Dodeli meni
@@ -497,7 +486,6 @@ sl:
     warning_presets:
       add_new: Dodaj novo
       delete: Izbriši
-      edit: Uredi
       edit_preset: Uredi prednastavitev opozoril
       title: Upravljaj prednastavitev opozoril
   admin_mailer:
@@ -624,7 +612,6 @@ sl:
     blocks: Blokirate
     csv: CSV
     domain_blocks: Bloki domene
-    follows: Sledite
     lists: Seznami
     mutes: Utišate
     storage: Shranjeni mediji
@@ -896,8 +883,6 @@ sl:
     profile: Profil
     relationships: Sledenja in sledilci
     two_factor_authentication: Dvofaktorsko overjanje
-  spam_check:
-    spam_detected_and_silenced: To je samodejno poročilo. Zaznana je bila neželena pošta in pošiljatelj je bil samodejno utišan. Če je prišlo do napake, prekličite utišanje računa.
   statuses:
     attached:
       description: 'Priloženo: %{attached}'
@@ -1039,21 +1024,14 @@ sl:
       default: "%b %d, %Y, %H:%M"
       month: "%b %Y"
   two_factor_authentication:
-    code_hint: Za potrditev vnesite kodo, ki jo je ustvarila aplikacija za preverjanje pristnosti
-    description_html: Če omogočite <strong>dvofaktorsko preverjanje pristnosti</strong>, boste za prijavo morali imeti svoj telefon, s katerim boste ustvarili žetone za vstop.
     disable: Onemogoči
-    enable: Omogoči
     enabled: Dvofaktorsko preverjanje pristnosti je omogočeno
     enabled_success: Dvofaktorsko preverjanje pristnosti je uspešno omogočeno
     generate_recovery_codes: Ustvari kode za obnovitev
-    instructions_html: "<strong>Skenirajte QR kodo z Google Authenticator ali s podobno aplikacijo TOTP</strong>. Od zdaj naprej bo ta aplikacija ustvarjala žetone, ki jih boste morali vnesti ob prijavi."
     lost_recovery_codes: Obnovitvene kode vam omogočajo, da ponovno pridobite dostop do svojega računa, če izgubite telefon. Če ste izgubili obnovitvene kode, jih lahko obnovite tukaj. Vaše stare obnovitvene kode bodo neveljavne.
-    manual_instructions: 'Če ne morete skenirati QR kode in jo morate vnesti ročno, je tu skrivnost v tekstovni obliki:'
     recovery_codes: Varnostna kopija obnovitvenih kod
     recovery_codes_regenerated: Obnovitvene kode so bile uspešno regenerirane
     recovery_instructions_html: Če kdaj izgubite dostop do telefona, lahko uporabite eno od spodnjih obnovitvenih kod, da ponovno pridobite dostop do svojega računa. <strong>Shranite obnovitvene kode</strong>. Lahko jih natisnete in shranite z drugimi pomembnimi dokumenti.
-    setup: Nastavi
-    wrong_code: Vnesena koda je bila neveljavna! Ali sta čas strežnika in čas naprave pravilna?
   user_mailer:
     backup_ready:
       explanation: Zahtevali ste popolno varnostno kopijo računa Mastodon. Zdaj je pripravljen za prenos!

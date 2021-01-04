@@ -26,6 +26,7 @@ defaults: &defaults
   expand_spoilers: false
   preview_sensitive_media: false
   reduce_motion: false
+  disable_swiping: false
   show_application: true
   system_font_ui: false
   noindex: false
@@ -35,6 +36,8 @@ defaults: &defaults
   use_blurhash: true
   use_pending_items: false
   trends: true
+  trendable_by_default: false
+  crop_images: true
   notification_emails:
     follow: false
     reblog: false
@@ -59,6 +62,7 @@ defaults: &defaults
     - mod
     - moderator
   disallowed_hashtags: # space separated string or list of hashtags without the hash
+  enable_bootstrap_timeline_accounts: true
   bootstrap_timeline_accounts: ''
   activity_api_enabled: true
   peers_api_enabled: true
@@ -66,6 +70,7 @@ defaults: &defaults
   spam_check_enabled: true
   show_domain_blocks: 'disabled'
   show_domain_blocks_rationale: 'disabled'
+  require_invite_text: false
 
 development:
   <<: *defaults
